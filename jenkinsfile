@@ -1,0 +1,9 @@
+node {
+    // some block
+    stage('scm'){
+        git 'https://github.com/siva0139/hello-world.git'
+    }
+    stage('package'){
+        sh 'mvn package'
+    }
+}
