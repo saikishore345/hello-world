@@ -1,4 +1,4 @@
-node {
+pipeline {
     // some block
     stage('scm'){
         git 'https://github.com/siva0139/hello-world.git'
