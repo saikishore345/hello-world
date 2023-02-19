@@ -4,6 +4,6 @@ node() {
         git 'https://github.com/saikishore345/hello-world.git'
     }
     stage('package'){
-        sh 'mvn package'
+        bat 'mvn clean package'
     }
 }
