@@ -1,4 +1,4 @@
-node('master') {
+node() {
     // some block
     stage('scm'){
         git 'https://github.com/saikishore345/hello-world.git'
